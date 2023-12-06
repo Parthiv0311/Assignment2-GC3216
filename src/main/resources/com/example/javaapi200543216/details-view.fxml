@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.javaapi200543216.DetailsController" styleClass="details-container"  stylesheets="@styles.css">
+    <!-- Back button at the top -->
+    <Button text="Back" onAction="#handleBackButtonClick" styleClass="back-button"/>
+
+    <!-- Display the name property in the center of the scene -->
+    <Label fx:id="nameLabel" text="" styleClass="name-label"/>
+
+    <!-- Display other properties as a list -->
+    <Label text="Scientific name: " fx:id="scientificNameLabel" styleClass="property-label"/>
+    <Label text="Locations: " fx:id="locationsLabel" styleClass="property-label"/>
+    <Label text="Species: " fx:id="speciesLabel" styleClass="property-label"/>
+    <Label text="Name of Young: " fx:id="nameOfYoungLabel" styleClass="property-label"/>
+    <Label text="Lifespan: " fx:id="lifespanLabel" styleClass="property-label"/>
+</VBox>

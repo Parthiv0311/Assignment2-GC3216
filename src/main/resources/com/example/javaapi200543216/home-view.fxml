@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.javaapi200543216.HomeController" styleClass="main-container" stylesheets="@styles.css">
+    <top>
+        <Label text="Animals DB" styleClass="header-label" BorderPane.alignment="CENTER"/>
+    </top>
+    <center>
+        <VBox spacing="20" alignment="CENTER" styleClass="center-container">
+            <HBox spacing="10" alignment="CENTER" styleClass="input-box">
+                <Label text="Animal Name:" styleClass="label"/>
+                <TextField fx:id="animalNameTextField" promptText="Enter Animal Name" styleClass="text-field"/>
+                <Button text="Get Animal Info" onAction="#handleGetInfoButtonClick" styleClass="action-button"/>
+            </HBox>
+            <ListView fx:id="animalsListView" onMouseClicked="#handleListViewItemClick" styleClass="list-view"/>
+        </VBox>
+    </center>
+</BorderPane>

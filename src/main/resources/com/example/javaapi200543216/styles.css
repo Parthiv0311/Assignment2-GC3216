@@ -1,0 +1,68 @@
+/* styles.css */
+
+/* Common Styles */
+
+.main-container {
+    -fx-background-color: #333333; /* Dark gray background color */
+}
+
+.center-container {
+    -fx-spacing: 20; /* Adjust spacing between elements */
+}
+
+.label {
+    -fx-font-size: 18; /* Font size for labels */
+    -fx-text-fill: #ffffff; /* White text color */
+}
+
+.text-field {
+    -fx-font-size: 18; /* Font size for text fields */
+}
+
+.list-view {
+    -fx-pref-height: 300; /* Preferred height for the list view */
+    -fx-background-color: #666666; /* Slightly lighter dark gray background color for the list view */
+}
+
+/* Home Page Styles */
+
+.header-label {
+    -fx-font-size: 28; /* Larger font size for the header */
+    -fx-font-weight: bold; /* Bold font */
+    -fx-text-fill: #ffffff; /* White text color */
+}
+
+.input-box {
+    -fx-spacing: 20; /* Adjust spacing between input elements */
+}
+
+.action-button {
+    -fx-font-size: 18; /* Font size for action buttons */
+    -fx-background-color: #555555; /* Dark gray background color for buttons */
+    -fx-text-fill: #ffffff; /* White text color */
+}
+
+/* Details Page Styles */
+
+.details-container {
+    -fx-spacing: 10; /* Adjust spacing between elements */
+    -fx-padding: 20; /* Adjust padding around the container */
+    -fx-background-color: #333333; /* Dark gray background color for details container */
+}
+
+.back-button {
+    -fx-font-size: 16; /* Font size for the back button */
+    -fx-background-color: #555555; /* Dark gray background color for the back button */
+    -fx-text-fill: #ffffff; /* White text color */
+}
+
+.name-label {
+    -fx-font-size: 28; /* Font size for the name label */
+    -fx-font-weight: bold; /* Bold font */
+    -fx-text-fill: #ffffff; /* White text color */
+}
+
+.property-label {
+    -fx-font-size: 18; /* Font size for property labels */
+    -fx-text-fill: #ffffff; /* White text color */
+}
